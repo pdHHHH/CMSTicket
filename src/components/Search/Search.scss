@@ -1,0 +1,27 @@
+@import "scss/color";
+
+.app__search {
+    background-color: $textbox;
+    height: 48px;
+    width: 100%;
+    max-width: 440px;
+    border-radius: 12px;
+    position: relative;
+    padding: 0 12px;
+    font-size: 16px;
+
+    &__input {
+        height: 100%;
+        width: 100%;
+        border: none;
+        outline: none;
+        border-radius: inherit;
+        background-color: transparent;
+    }
+
+    &__icon {
+        position: absolute;
+        right: 12px;
+        height: inherit;
+    }
+}

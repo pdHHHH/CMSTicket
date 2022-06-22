@@ -1,0 +1,45 @@
+@import "scss/_color.scss";
+$row: #F1F4F8;
+
+table {
+    width: 100%;
+    height: fit-content;
+    border-collapse: collapse;
+    font-family: Montserrat !important;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    thead {
+        background-color: $row;
+        height: 48px;
+        font-weight: 600 !important;
+        color: $text-secondary;
+        tr {
+            th {
+                &:first-child {
+                    border-radius: 8px 0 0 0;
+                }
+
+                &:last-child {
+                    border-radius: 0 8px 0 0;
+                }
+            }
+        }
+    }
+
+    tbody {
+        font-weight: 500 !important;
+        color: $text-primary;
+        tr {
+            height: 49px;
+            &:nth-child(odd) {
+                background-color: transparent;
+              }
+              &:nth-child(even) {
+                background-color: $row;
+              }
+        }
+    }
+}

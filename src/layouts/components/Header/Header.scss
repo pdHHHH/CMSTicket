@@ -1,0 +1,31 @@
+@import "scss/sizing";
+.header__wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: $default-header-height;
+}
+
+.header__container {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: $default-horizontal-spacing;
+}
+
+.header__logo {
+    height: 58px;
+    width: $sidebar-width;
+}
+
+.header__account-item {
+    margin-left: auto;
+}
+
+
+
+
+

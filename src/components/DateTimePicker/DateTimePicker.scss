@@ -1,0 +1,38 @@
+@import "scss/_color.scss";
+
+
+.app__date-time-picker {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+    &__date,
+    &__time {
+        height: 40px;
+        min-width: 150px;
+        width: fit-content;
+        border-radius: 4px;
+        border: solid 1px rgba($color: $clay, $alpha: .5);
+        padding: 0 15px;
+        font-size: 14px;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 15px;
+    }
+
+    &__selected {
+        display: flex;
+        height: inherit;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    &__icon {
+        cursor: pointer;
+    }
+
+
+}

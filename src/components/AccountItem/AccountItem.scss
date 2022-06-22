@@ -1,0 +1,29 @@
+@import "scss/color";
+
+.app__account-item {
+    height: 48px;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+
+    &__email-icon {
+    }
+    
+    &__notification-icon {
+
+    }
+
+    &__account-avatar {
+        height: 48px;
+        width: 48px;
+        border-radius: 50%;
+        img {
+            height: inherit;
+            width: inherit;
+            border-radius: inherit;
+            object-fit: cover;
+        }
+    }
+}
